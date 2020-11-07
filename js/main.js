@@ -1,4 +1,4 @@
-const url = "https://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minCorpusCount=0&minLength=5&maxLength=8&limit=200&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
+const url = "https://api.wordnik.com/v4/words.json/randomWords?hasDictionaryDef=true&minCorpusCount=0&minLength=5&maxLength=8&limit=100&api_key=a2a73e7b926c924fad7001ca3111acd55af2ffabf50eb4ae5";
 const wordInput = document.querySelector("#word-input");
 const scoreDisplay = document.querySelector("#score");
 const message = document.querySelector("#message");
