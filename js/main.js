@@ -17,6 +17,7 @@ let countInterval = '';
 let checkInterval = '';
 
 headerTime.innerHTML = gameTime;
+wordInput.readOnly = true;
 const words = [];
 
   // 게임 시작 함수
